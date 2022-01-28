@@ -1,0 +1,41 @@
+@media (max-width: 100%){
+	.my{
+		width: 100%;
+	}		
+}
+@media (min-width: 901px) and (max-width: 930px){
+	.one li:nth-child(3){			
+		width: 48%;
+	}
+	.one	li:last-child{			
+		width: 50%;
+	}
+}
+@media (min-width: 599px) and (max-width: 901px){
+	.one, .two{
+		flex-basis: 100%;
+	}	
+}
+@media (min-width: 100px) and (max-width: 599px){
+	.one {
+		flex-basis: 100%;
+	}
+	.one li input {
+		width: 94%;	
+	}
+	.one li:nth-child(3){			
+		width: 100%;
+	}
+	.one li:last-child{				
+		width: 100%;
+	}	
+	.two{
+		flex-basis: 100%;
+	}
+	.two ol{
+		grid-template-columns: 1fr;
+	}
+	.two select{
+		padding-top: 12px;
+	}
+}
